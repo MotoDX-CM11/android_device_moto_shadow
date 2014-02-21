@@ -1,0 +1,24 @@
+#
+# system.prop for shadow
+#
+
+rild.libpath=/system/lib/libmoto_ril.so
+rild.libargs=-d /dev/ttyS0
+
+#=========================================================================================
+# Note about persist.xxx properties :
+#
+# Don't edit values in this file, they are only used to set the default values on upgrade
+# use setprop tool if you want to change them.
+#=========================================================================================
+# LED charging indicator mode
+#  off   = keep LED off during charging
+#  white = white LED for 'charging', green LED for 'charged'
+#  rgb   = mixed yellowish LED for 'charging', green LED for 'charged'
+persist.sys.charge_led=white
+# Brightness scaling of the button backlight
+persist.sys.button_brightness=100
+# use default multitouch configuration
+persist.sys.multitouch=2
+#=========================================================================================
+
