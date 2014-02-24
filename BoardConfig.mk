@@ -27,7 +27,7 @@
 # Model variant (DEFY_FROYO, DEFY_GINGER, DEFY_PLUS)
 BOARD_DEFY_MODEL := DEFY_PLUS
 TARGET_USE_SHADOW_COMMON := true
-TARGET_KERNEL_CONFIG  := mb526_cm10.1_defconfig
+TARGET_KERNEL_CONFIG  := shadow_cm11_defconfig
 
 # Use the part that is common between all allwinner
 include device/moto/shadow-common/BoardConfig.mk
