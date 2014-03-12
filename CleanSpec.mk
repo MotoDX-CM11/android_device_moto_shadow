@@ -46,7 +46,7 @@
 
 $(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/DefyParts_intermediates)
 
-# For the sensors lib, its better to rebuild it on defy/defy+ switch
+# For the sensors lib
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/sensors.shadow_intermediates)
 
 # ************************************************

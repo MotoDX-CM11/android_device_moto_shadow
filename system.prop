@@ -17,7 +17,7 @@ rild.libargs=-d /dev/ttyS0
 #  rgb   = mixed yellowish LED for 'charging', green LED for 'charged'
 persist.sys.charge_led=white
 # Brightness scaling of the button backlight
-persist.sys.button_brightness=100
+persist.sys.button_brightness=30
 # use default multitouch configuration
 persist.sys.multitouch=2
 #=========================================================================================
