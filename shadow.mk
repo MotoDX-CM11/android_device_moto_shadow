@@ -25,7 +25,6 @@ $(call inherit-product, device/moto/shadow-common/device.mk)
 
 ## (3)  Finally, the least specific parts, i.e. the non-CDMA-specific aspects
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.url.safetylegal=http://www.motorola.com/staticfiles/Support/legal/?model=MB525 \
 	ro.media.capture.maxres=8m \
 	ro.media.capture.flash=led \
 	ro.media.capture.flashMinV=3500000 \
