@@ -4,6 +4,32 @@
 
 rild.libpath=/system/lib/libmoto_ril.so
 rild.libargs=-d /dev/ttyS0
+ro.mot.ril.danlist=611,*611,#611
+persist.ril.ecclist=911,*911,#911
+persist.ril.modem.mode=1
+persist.ril.features=0x07
+persist.ril.modem.ttydevice=/dev/usb/tty1-3:1.0
+persist.ril.mux.noofchannels=7
+ro.ril.hsxpa=2
+ro.ril.gprsclass=10
+ro.ril.hep=1
+ro.ril.hsdpa.category=8
+ro.ril.enable.3g.prefix=1
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.hsupa.category=6
+ro.ril.def.agps.mode=2
+ro.ril.def.agps.feature=1
+ro.ril.enable.sdr=1
+ro.ril.enable.gea3=1
+ro.ril.enable.fd.plmn.prefix=23402,23410,23411
+ro.ril.disable.power.collapse=0
+ro.config.hw_power_saving=1
+ro.ril.enable.a52=0
+ro.ril.enable.a53=0
+ro.ril.enable.dtm=0
+ro.setupwizard.enable_bypass=1
+ro.setupwizard.mode=OPTIONAL
 
 #=========================================================================================
 # Note about persist.xxx properties :
