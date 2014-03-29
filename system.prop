@@ -4,6 +4,7 @@
 rild.libpath=/system/lib/libmoto_ril.so
 rild.libargs=-d /dev/ttyS0
 ro.default_usb_mode=2
+ril.subscription.types=NV
 # BEGIN Motorola, a18772, 05/19/2010, IKSHADOW-5584
 # Add 411 to DAN List for VZW.
 ro.mot.ril.danlist=611,*611,#611
@@ -186,5 +187,3 @@ media.stagefright.enable-record=false
 media.stagefright.enable-rtsp=false
 ro.mot.hw.uaprof=http://uaprof.motorola.com/phoneconfig/MotoMB200/profile/MotoMB200.rdf
 qemu.hw.mainkeys=1
-
-
