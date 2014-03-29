@@ -23,10 +23,10 @@ $(call inherit-product, device/moto/shadow/full_shadow.mk)
 DEVICE_PACKAGE_OVERLAYS += device/moto/shadow/overlay
 
 PRODUCT_NAME := cm_shadow
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Verizon
 PRODUCT_DEVICE := shadow
 PRODUCT_MODEL := DROIDX
-PRODUCT_MANUFACTURER := Verizon
+PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := Motorola Droid X
 PRODUCT_SFX := cdma
 
