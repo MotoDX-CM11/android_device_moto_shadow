@@ -17,21 +17,6 @@ windowsmgr.max_events_per_sec=75
 # This defines the min duration between two pointer event
 ro.min_pointer_dur=10
 
-# USB modes allowed for UI and switching
-ro.ngp_available=1
-ro.modem_available=1
-persist.usb.android_config=0
-
-# Default network type.
-# 4 => CDMA / EVDO.
-ro.telephony.default_network=4
-ro.com.google.clientid=android-motorola
-ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
-ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-ro.cdma.home.operator.numeric=310004
-ro.cdma.home.operator.alpha=Verizon
-ro.config.vc_call_vol_steps=7
-
 # Indicate carrier OTA SP number schema
 # refer to frameworks/base/telephony/java/com/android/
 # internal/telephony/cdma/CDMAPhone.java for the schema:
