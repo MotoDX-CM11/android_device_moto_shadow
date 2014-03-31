@@ -4,7 +4,6 @@
 rild.libpath=/system/lib/libmoto_ril.so
 rild.libargs=-d /dev/ttyS0
 ro.default_usb_mode=2
-ril.subscription.types=NV
 # BEGIN Motorola, a18772, 05/19/2010, IKSHADOW-5584
 # Add 411 to DAN List for VZW.
 ro.mot.ril.danlist=611,*611,#611
@@ -157,12 +156,6 @@ ro.media.enc.aud.codec=qcelp
 ro.media.enc.aud.bps=13300
 ro.media.enc.aud.ch=1
 ro.media.enc.aud.hz=8000
-ro.media.camcorder.720p=3gp,m4v,30,10000000,aac,96000,44100,2
-ro.media.camcorder.d1NTSC=3gp,h264,30,6000000,aac,96000,44100,2
-ro.media.camcorder.vga=3gp,h264,30,4000000,aac,96000,44100,2
-ro.media.camcorder.cif=3gp,h264,30,1500000,aac,96000,44100,2
-ro.media.camcorder.qvga=3gp,h264,15,500000,aac,32000,16000,2
-ro.media.camcorder.mms=3gp,h264,15,128000,amrnb,12200,8000,1
 ro.media.capture.maxres=8m
 ro.media.capture.fast.fps=4
 ro.media.capture.slow.fps=60
