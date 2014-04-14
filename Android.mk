@@ -12,9 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-ifeq ($(BOARD_DEFY_MODEL),DEFY_PLUS)
 ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),shadow)
 include $(all-subdir-makefiles)
 endif
-endif
+

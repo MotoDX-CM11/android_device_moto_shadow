@@ -24,8 +24,6 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-# Model variant (DEFY_FROYO, DEFY_GINGER, DEFY_PLUS)
-BOARD_DEFY_MODEL := DEFY_PLUS
 TARGET_USE_SHADOW_COMMON := true
 TARGET_KERNEL_CONFIG  := shadow_cm11_defconfig
 
