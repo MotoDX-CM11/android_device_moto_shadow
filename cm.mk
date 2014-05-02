@@ -14,13 +14,10 @@
 # limitations under the License.
 #
 
-TARGET_BOOTANIMATION_NAME := 480
-
-$(call inherit-product-if-exists, vendor/cm/config/common_full_phone.mk)
-$(call inherit-product-if-exists, vendor/cm/config/cdma.mk)
+# Inherit some common CM stuff
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/cdma.mk)
 $(call inherit-product, device/moto/shadow/full_shadow.mk)
-
-DEVICE_PACKAGE_OVERLAYS += device/moto/shadow/overlay
 
 PRODUCT_NAME := cm_shadow
 PRODUCT_BRAND := Verizon

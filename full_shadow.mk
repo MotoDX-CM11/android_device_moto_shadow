@@ -21,7 +21,7 @@
 # lines, full and toro, hence its name.
 #
 
-# Inherit from those products. Most specific first.
+# Inherit from shadow device
 $(call inherit-product, device/moto/shadow/shadow.mk)
 
 PRODUCT_NAME := full_shadow

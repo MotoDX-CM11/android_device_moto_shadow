@@ -17,12 +17,17 @@
 #
 # This is the product configuration for a generic Motorola Droid X (shadow)
 #
-device_path = device/moto/shadow
+$(call inherit-product, device/moto/shadow-common/shadow.mk)
 
-# The gps config appropriate for this device
-$(call inherit-product, device/common/gps/gps_eu_supl.mk)
-$(call inherit-product, device/moto/shadow-common/device.mk)
+device_path = device/moto/shadow
+DEVICE_PACKAGE_OVERLAYS += device/moto/shadow/overlay
+
+PRODUCT_PACKAGES += Torch
 
 PRODUCT_COPY_FILES += \
 	${device_path}/media_profiles.xml:system/etc/media_profiles.xml \
 	${device_path}/devtree:system/bootstrap/2nd-boot/devtree \
+
+# Include non-opensource parts
+$(call inherit-product, vendor/motorola/shadow-common/shadow-vendor.mk)
+
