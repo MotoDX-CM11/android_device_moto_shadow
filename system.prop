@@ -9,7 +9,7 @@ ro.default_usb_mode=2
 ro.mot.ril.danlist=611,*611,#611
 # END IKSHADOW-5584
 persist.ril.ecclist=911,*911,#911
-persist.ril.modem.mode =1
+persist.ril.modem.mode=1
 # This defines the max event window manager can
 # handle in 1 s. We may adjust this # for performance
 # reason later
