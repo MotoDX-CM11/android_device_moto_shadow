@@ -16,7 +16,7 @@ persist.ril.modem.mode=1
 # This defines the max event window manager can
 # handle in 1 s. We may adjust this # for performance
 # reason later
-windowsmgr.max_events_per_sec=75
+windowsmgr.max_events_per_sec=200
 # This defines the min duration between two pointer event
 ro.min_pointer_dur=10
 
