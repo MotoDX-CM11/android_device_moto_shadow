@@ -184,3 +184,4 @@ media.stagefright.enable-rtsp=false
 ro.mot.hw.uaprof=http://uaprof.motorola.com/phoneconfig/MotoMB200/profile/MotoMB200.rdf
 qemu.hw.mainkeys=1
 persist.sys.force_highendgfx=true
+persist.call_recording.enabled=1
